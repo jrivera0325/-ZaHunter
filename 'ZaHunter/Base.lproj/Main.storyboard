@@ -34,9 +34,15 @@
                     <navigationItem key="navigationItem" id="1IV-k0-a0C">
                         <barButtonItem key="leftBarButtonItem" systemItem="add" id="ayq-pz-syj">
                             <color key="tintColor" red="0.7970336294" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="zoomButton:" destination="BYZ-38-t0r" id="iU3-tN-xqV"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="B2P-Mp-H95">
                             <color key="tintColor" red="0.022276314679999999" green="0.70838730569999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="pizzaNearMe:" destination="BYZ-38-t0r" id="O8g-yi-Nbq"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>

@@ -15,9 +15,15 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func zoomButton(_ sender: UIBarButtonItem) {
+        
+    }
+    
 
-
-
+    @IBAction func pizzaNearMe(_ sender: UIBarButtonItem) {
+        
+    }
+    
 
 
 }
